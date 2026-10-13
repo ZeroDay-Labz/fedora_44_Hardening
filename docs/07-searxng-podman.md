@@ -1,3 +1,5 @@
+> Part of the [Fedora 44 Hardening guide](../README.md).
+
 # Self-hosting SearXNG with Podman
 
 [SearXNG](https://github.com/searxng/searxng) is a private, self-hosted
@@ -275,3 +277,6 @@ podman run -d --name searxng --pod searxng -v ~/searxng/config:/etc/searxng:Z do
 podman restart searxng
 # http://localhost:8080
 ```
+
+---
+[← Back to the index](../README.md)
